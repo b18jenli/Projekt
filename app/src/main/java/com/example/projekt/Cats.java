@@ -28,13 +28,13 @@ public class Cats {
     }
     public String info(){
         String str=name+"\n" ;
-        str+=" Originates from ";
+        str+="Originates from ";
         str+=location +"\n" ;
-        str+=" Type: ";
+        str+="Type: ";
         str+=category+"\n" ;
-        str+=" Features: ";
+        str+="Features: ";
         str+=auxdata+"\n" ;
-        str+=" Price: ";
+        str+="Price: ";
         str+=Integer.toString(cost);
         str+="SEK.";
         return str;
